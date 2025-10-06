@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+
+  <!-- Header -->
+  <header class="container">
+    <nav>
+      <figure>
+        <img src="images/logo.png" alt="logo">
+      </figure>
+      <ul id="menu">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Intro -->
+  <div class="container">
+    <section class="row">
+      <section class="intro-col1">
+        <h1>Hello! <br>I'm Althea</h1>
+      </section>
+      <section class="intro-col2">
+        <img src="images/pic9.jpg" class="profile" alt="Profile Picture">
+      </section>
+    </section>
+  </div>
+
+  <main>
+
+    <!-- About Me -->
+    <section id="about">
+      <h1>About Me</h1>
+      <p>
+        I am a Computer Engineering student from Silang, Cavite, with a passion for continuous learning and growth.
+        <br>My background in baking, music, and sports has shaped me into a creative and adaptable learner, while my current focus is on building technical skills in coding, system design, and problem-solving.
+        <br>I aim to create meaningful projects, embrace challenges, and share knowledge to make a positive impact.
+      </p>
+    </section>
+
+    <!-- Education -->
+    <section class="education">
+      <h2>Education</h2>
+      <section class="educ-list">
+        <article>
+          <h3>Bachelor of Science in Computer Engineering</h3>
+          <p><b>Cavite State University - Carmona Campus</b> | 2023 - 2027</p>
+          <p>Relevant Coursework: Object-Oriented Programming, Data Structures, Algorithms, Software Development, App Development</p>
+        </article>
+
+        <article>
+          <h3>Science, Technology, Engineering, and Mathematics Strand</h3>
+          <p><b>New Life Christian School Of Cavite</b> | 2021 - 2023</p>
+          <p>Work Immersion training at Creotec Philippines</p>
+        </article>
+      </section>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Project</h2>
+      <figure class="game-pic">
+        <img src="images/game.jpg" alt="Game">
+        <article class="layer">
+          <h3><b>College Odyssey: CpE Edition</b></h3>
+          <p>
+            <b>Description:</b> College Odyssey: CpE Edition is an interactive 2D role-playing game (RPG) that immerses players in the life of a Computer Engineering (CpE) student. Players navigate a university campus, experiencing student life's daily challenges and success. From working on programming assignments to calculus and electrical circuit problems, the game offers a blend of realism and strategy. Players must also manage their academic reputation, making decisions that shape the storyline and ultimately affect their path to graduation.
+          </p>
+          <p>
+            <b>Technologies:</b> Java Swing, Eclipse, Visual Studio Code, PNG assets (sprites, backgrounds), Custom collision and map system
+          </p>
+          <p><b>Key Features:</b></p>
+          <p>
+            Mission system with problem-solving tasks<br>
+            Points and life mechanics to track progress<br>
+            Room navigation with door entry/exit<br>
+            Character selection at the start of the game<br>
+            Dynamic UI displaying missions, points, and lives
+          </p>
+        </article>
+      </figure>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <article>
+        <h3>Programming & Development</h3>
+        <p>
+          <b>Java:</b> Object-oriented programming, GUI development with Swing<br>
+          <b>Game Development:</b> 2D game mechanics, collision detection, sprite animation<br>
+          <b>Development Tools:</b> Visual Studio Code
+        </p>
+      </article>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <h2>Experience & Achievements</h2>
+      <article>
+        <h3>Academic Projects</h3>
+        <p>
+          Developed Java applications demonstrating OOP principles<br>
+          Participated in collaborative coding projects and peer code reviews<br>
+          Completed algorithm analysis and optimization exercises
+        </p>
+      </article>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-box">
+            <div class="contact-left">
+              <h1>Contact Me</h1>
+              <p>Your message means a lot! <br>Feel free to reach out anytime, and I’ll get back to you soon.</p>
+              <p><b>REACH ME AT:</b></p>
+              <p>Email: althea.celis@cvsu.edu.ph</p>
+              <p>Phone: 09989294765</p>
+              <p>Address: Maguyam, Silang, Cavite</p>
+            </div>
+            <div class="contact-right">
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="b066f72a-d3b2-4a1b-86ba-bb84c7172e3d">
+                <input type="text" name="Name" placeholder="Name" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <input type="phone" name="Phone" placeholder="Phone" required>
+                <textarea name="message" rows="6" placeholder="Message"></textarea>
+                <button type="submit" class="btn">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <a href="#home" class="back-to-top">Back to Top ↑</a>
+    <p><em>MADE WITH LOVE BY ALTHEA</em></p>
+  </footer>
+
+</body>
+</html>
